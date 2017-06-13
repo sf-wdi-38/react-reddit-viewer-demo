@@ -10,9 +10,12 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Reddit Viewer</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ul>
+          <li>funny</li>
+          <li>reactjs</li>
+          <li>holdmybeer</li>
+          <li>gifsthatkeepongiving</li>
+        </ul>
       </div>
     );
   }
