@@ -12,8 +12,8 @@ class App extends Component {
           <ul>
             <li><Link to="/funny">funny</Link></li>
             <li><Link to="/reactjs">reactjs</Link></li>
-            <li><Link to="/holdmybeer">holdmybeer</Link></li>
             <li><Link to="/gifsthatkeepongiving">gifsthatkeepongiving</Link></li>
+            <li><Link to="/javascript">javascript</Link></li>
           </ul>
         </div>
         { this.props.children }
