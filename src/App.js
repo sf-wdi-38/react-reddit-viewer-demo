@@ -16,6 +16,8 @@ class App extends Component {
           <li>holdmybeer</li>
           <li>gifsthatkeepongiving</li>
         </ul>
+        { this.props.children }
+
       </div>
     );
   }
