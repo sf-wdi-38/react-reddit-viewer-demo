@@ -6,6 +6,6 @@ import Forum from '../containers/Forum';
 
 export default (
   <Route path="/" component={App} >
-    <Route path="/funny" component={Forum} />
+    <Route path="/:name" component={Forum} />
   </Route>
 );
