@@ -7,13 +7,17 @@ class Thread extends Component {
 }
 
 class Forum extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      threads: ["Damn Wish!", "I was walking..."]
+    }
+  }
   render() {
-    let threads = ["Damn Wish!", "I was walking..."];
-
     return (
         <div>
           <h1>The { this.props.params.forum_name } Subreddit</h1>
-          { threads.map((title) => <Thread title={title} />) }
+          { this.state.threads.map((title) => <Thread title={title} />) }
         </div>
 
     );
