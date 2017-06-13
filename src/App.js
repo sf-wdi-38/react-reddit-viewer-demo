@@ -8,15 +8,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h2>Reddit Viewer</h2>
+          <ul>
+            <li><Link to="/funny">funny</Link></li>
+            <li><Link to="/reactjs">reactjs</Link></li>
+            <li><Link to="/holdmybeer">holdmybeer</Link></li>
+            <li><Link to="/gifsthatkeepongiving">gifsthatkeepongiving</Link></li>
+          </ul>
         </div>
-        <ul>
-          <li><Link to="/funny">funny</Link></li>
-          <li><Link to="/reactjs">reactjs</Link></li>
-          <li><Link to="/holdmybeer">holdmybeer</Link></li>
-          <li><Link to="/gifsthatkeepongiving">gifsthatkeepongiving</Link></li>
-        </ul>
         { this.props.children }
 
       </div>
